@@ -1,0 +1,12 @@
+name: astrbot_plugin_goal_organizer
+display_name: 目标整理助手
+author: Lcy23
+desc: 按两级标题整理用户目标任务，支持查看任务与编号详情查询
+version: 1.0.0
+repo: https://github.com/Lcy23/astrbot_plugin_goal_organizer
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - discord
+astrbot_version: ">=4.10.0"

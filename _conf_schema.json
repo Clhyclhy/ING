@@ -1,0 +1,20 @@
+{
+  "data_file_name": {
+    "description": "任务数据文件名",
+    "type": "string",
+    "default": "goals_data.json",
+    "hint": "用于保存任务数据，默认存储在插件目录下。"
+  },
+  "max_tasks_per_collection": {
+    "description": "单个合集最大任务数",
+    "type": "int",
+    "default": 200,
+    "hint": "防止误操作导致单个合集任务无限增长。"
+  },
+  "allow_plain_text_query": {
+    "description": "启用纯文本快捷查询",
+    "type": "bool",
+    "default": true,
+    "hint": "开启后，发送“查看任务”或“1.1”可直接触发查询。"
+  }
+}
